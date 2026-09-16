@@ -37,13 +37,13 @@ Allows granular, well-by-well dynamic filtering to analyze reservoir longevity a
 The raw daily logs required feature engineering in Excel and Power Query prior to visualization:
 
 1. **Total Liquid Volume:**
-   $$\text{Total Liquid} = \text{BORE\_OIL\_VOL} + \text{BORE\_WAT\_VOL}$$
+   `Total Liquid = BORE_OIL_VOL + BORE_WAT_VOL`
 
 2. **Water-Oil Ratio (WOR):**
-   $$\text{WOR} = \frac{\text{BORE\_WAT\_VOL}}{\text{BORE\_OIL\_VOL}}$$
+   `WOR = BORE_WAT_VOL / BORE_OIL_VOL`
 
 3. **Gas-Oil Ratio (GOR):**
-   $$\text{GOR} = \frac{\text{BORE\_GAS\_VOL}}{\text{BORE\_OIL\_VOL}}$$
+   `GOR = BORE_GAS_VOL / BORE_OIL_VOL`
 
 * **Data Cleaning:** Filtered out shut-in/non-producing operational days, standard calendar attributes (Year, Month Name, Month Number), and validated raw headers.
 ---
