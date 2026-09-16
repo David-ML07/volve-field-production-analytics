@@ -46,7 +46,6 @@ The raw daily logs required feature engineering in Excel and Power Query prior t
    $$\text{GOR} = \frac{\text{BORE\_GAS\_VOL}}{\text{BORE\_OIL\_VOL}}$$
 
 * **Data Cleaning:** Filtered out shut-in/non-producing operational days, standard calendar attributes (Year, Month Name, Month Number), and validated raw headers.
-
 ---
 
 ## Data Dictionary
